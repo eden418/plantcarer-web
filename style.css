@@ -86,6 +86,7 @@ header .row .col-md-7{
   padding: 22vmin 1vmin;
   padding-bottom: 35vmin;
   font-family: var(--Rubik);
+  color: white;
 }
 
 header .row .col-md-5 img{
@@ -98,8 +99,44 @@ header .container .col-md-7 h6{
 }
 
 header .container .col-md-7 h1{
-  font-size: 8.5vmin;
+  font-size: 8vmin;
   font-weight: bold;
   padding: 0.1em 0em;
   width: auto;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* section 1*/
+
+.section-1{
+  padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 9.5;
+  width: 100%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child{
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 }
